@@ -13,3 +13,10 @@ keymap.set("n", "<C-a>", "gg<S-g>G")
 -- Split window
 keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
+
+-- Copilot chat
+keymap.set("v", "<C-t>", ":CopilotChat", opts)
+
+keymap.set("n", "L", "$") -- Move to end of line
+
+keymap.set("n", "H", "^") -- Move to start of line
